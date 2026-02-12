@@ -10,6 +10,10 @@ Route::get('/mi-nombre', function () {
     return "Jose";
 });
 
+Route::get('/contactanos', function () {
+    return view("form");
+});
+
 Route::get('/php-basico', function () {
 
     $name = "Jose";
